@@ -1,0 +1,71 @@
+article{
+	background-color: blue;
+	margin-bottom: 0;
+}
+aside{
+	background-color: yellow;
+		margin-top: 0;
+}
+h1{
+	color: blue;
+}
+.parent{
+	border: 5px solid lightcoral;
+}
+.parent{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0;
+}
+
+.verkefni{
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 600;
+
+}
+
+.verkefni{
+	width: auto;
+	align-items: flex-start;
+	border: 1px solid darkgreen;
+	background-color:	#556B2F;
+}
+.box1{
+	border:  solid yellow;
+	background-color: yellow; 
+	margin-top: 0em;
+	float: left;
+	width: 50%;
+}
+
+.box2{
+	border: solid blue;
+	background-color: blue;
+	margin-bottom: 0em;
+}
+.box3{
+	border:solid lightgreen;
+	background-color: lightgreen;
+	margin: 0em;
+}
+.box4{
+	border:  solid yellow;
+	background-color: yellow; 
+	margin-top: 0em;
+	float: right;
+	width: 47.5%;
+}
+@media screen and (min-width: 30em){
+body{
+	display:block;
+	width: 30em;
+}
+}
+@media screen and (min-width: 48em){
+	body{
+		display: block;
+	}
+}

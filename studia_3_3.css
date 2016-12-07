@@ -1,0 +1,86 @@
+body{width: 48em}
+article{
+	background-color: blue;
+	margin-bottom: 0;
+}
+aside{
+	background-color: yellow;
+		margin-top: 0;
+}
+h1{
+	color: blue;
+}
+.parent{
+	border: 5px solid lightcoral;
+}
+.parent{
+	display: flex;
+	flex-direction:row;
+	margin-top: 0;
+}
+
+.verkefni{
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+
+}
+.texti{
+	font-size: 125%;
+}
+
+.verkefni{
+	width: 100%;
+	align-items: flex-start;
+	border: 1px solid darkgreen;
+	background-color:	#556B2F;
+}
+.box1{
+	border:  solid yellow;
+	background-color: yellow; 
+	margin-top: 0em;
+	float: left;
+	width: 50%;
+}
+
+.box2{
+	color: white;
+	border: solid blue;
+	background-color: blue;
+	margin-bottom: 0em;
+}
+.box3{
+	border:solid lightgreen;
+	background-color: lightgreen;
+	margin:0;
+}
+.box4{
+	border:  solid yellow;
+	background-color: yellow; 
+	margin-top: 0em;
+	float: right;
+	width: 48.4%;
+}
+@media screen and (min-width: 48em){
+body{
+	display:block;
+}
+#box4{
+	border:  solid yellow;
+	background-color: yellow; 
+	margin-top: 0em;
+	float: right;
+	width: 48.4%;
+}
+#box3{
+	border:solid lightgreen;
+	background-color: lightgreen;
+	margin:0;
+}
+@media screen and (min-width: 60em){
+	body{
+		display: block
+		
+	}
+}
