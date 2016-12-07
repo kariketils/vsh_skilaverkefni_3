@@ -1,5 +1,5 @@
 body{
-display: table;
+	display: table;
 width: 85%;
 margin-right: 10%;
 margin-left: 10%;
@@ -73,14 +73,17 @@ h1{
 
 @media screen and (max-width: 60em){
 body{
-	display: table;
+	
 	width: 100%;
 }
 
 .box2{
-	display: table-cell;
-	vertical-align: center;
-	text-align: center;
+	display: table;
+	al
+	width: 50%;
+	float: left;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 .box1{
 	float: left;
