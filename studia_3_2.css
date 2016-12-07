@@ -1,3 +1,8 @@
+body{
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 85%;
+}
 article{
 	background-color: blue;
 	margin-bottom: 0;
@@ -37,8 +42,6 @@ h1{
 	border:  solid yellow;
 	background-color: yellow; 
 	margin-top: 0em;
-	float: left;
-	width: 50%;
 }
 
 .box2{
@@ -55,17 +58,32 @@ h1{
 	border:  solid yellow;
 	background-color: yellow; 
 	margin-top: 0em;
+}
+@media screen and (max-width: 30em){
+.box1{
+	float: left;
+	width: 48.5%;
+	margin: 0px;
+}
+.box4{
 	float: right;
-	width: 47.5%;
+	width: 48.5%;
+	margin: 0px;
 }
-@media screen and (min-width: 30em){
 body{
-	display:block;
-	width: 30em;
+	width: 100%
 }
 }
-@media screen and (min-width: 48em){
-	body{
-		display: block;
-	}
+@media screen and (max-width: 48em){
+
+.box1{
+	float: left;
+	width: 48.5%;
+	margin: 0px;
+}
+.box4{
+	float: right;
+	width: 48.5%;
+	margin: 0px;
+}
 }
